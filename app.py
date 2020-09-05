@@ -23,7 +23,8 @@ loaded_model = pickle.load(open('model.pkl', 'rb'))
 
 app = Flask(__name__)
 
-engine = create_engine('postgresql://postgres:123456Mxm@localhost/Final_Project')
+# engine = create_engine('postgresql://postgres:123456Mxm@localhost/Final_Project')
+engine = create_engine('postgres://lwmwibmlxnccxq:7c382373e3f1f5053320d604e3b8b07c4235df46b4bbcc2017701e9996ae11eb@ec2-3-208-50-226.compute-1.amazonaws.com:5432/d44ajo2omj7b6t')
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 Cardio = Base.classes.cardio_table
