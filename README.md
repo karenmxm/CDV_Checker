@@ -1,4 +1,4 @@
 # CDV_Checker
 Heroku Deployment
 
-! https://cvdchecker.herokuapp.com/
+https://cvdchecker.herokuapp.com/
